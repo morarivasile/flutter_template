@@ -24,6 +24,8 @@ dependencies:
     path: ../packages/core/ui/
   home:
     path: ../packages/features/home/
+  login:
+    path: ../packages/features/login/
 
   very_good_analysis: ^5.1.0
 

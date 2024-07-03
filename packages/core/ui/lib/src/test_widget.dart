@@ -11,6 +11,9 @@ class TestWidget extends StatelessWidget {
           height: 50,
           color: Colors.redAccent,
         ),
+        const SizedBox(
+          width: 20,
+        ),
         Container(
           height: 50,
           color: Colors.blueAccent,
