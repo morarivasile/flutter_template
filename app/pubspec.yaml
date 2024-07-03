@@ -1,4 +1,4 @@
-name: template_app
+name: app
 description: "A new Flutter project."
 
 # Prevent accidental publishing to pub.dev

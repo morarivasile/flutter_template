@@ -29,6 +29,5 @@ scripts:
     run: |
       melos run unit_test 
       melos exec -c 1 -- "\$MELOS_ROOT_PATH/scripts/combine_coverage.sh"
-      lcov --remove MELOS_ROOT_PATH/coverage_report/lcov.info "**/di/" -o MELOS_ROOT_PATH/coverage_report/lcov.info
       coverde value -i MELOS_ROOT_PATH/coverage_report/lcov.info > MELOS_ROOT_PATH/coverage_report/result.txt
       melos exec -c 1 -- genhtml \$MELOS_ROOT_PATH/coverage_report/lcov.info -o \$MELOS_ROOT_PATH/coverage_report/html
