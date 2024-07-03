@@ -1,5 +1,7 @@
 name: template_app
 description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -11,7 +13,18 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.6
+  ## Packages
+  catalog:
+    path: ../packages/data/catalog/
+  device:
+    path: ../packages/data/device/
+  utility:
+    path: ../packages/core/utility/
+  ui:
+    path: ../packages/core/ui/
+  home:
+    path: ../packages/features/home/
+
   very_good_analysis: ^5.1.0
 
 dev_dependencies:
