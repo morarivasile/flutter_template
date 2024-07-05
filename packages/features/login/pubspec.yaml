@@ -1,6 +1,7 @@
 name: login
 description: "A new Flutter package project."
 version: 0.0.1
+publish_to: none
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
@@ -11,6 +12,10 @@ dependencies:
     sdk: flutter
 
   very_good_analysis: ^5.1.0
+
+  ## Packages
+  ui:
+    path: ../../core/ui/
 
 dev_dependencies:
   flutter_test:
